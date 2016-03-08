@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.sourceforge.eclpropfileedit.editor.PropertyFileEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            default="false"
+            extensions="properties"
+            icon="icons/prop_file.gif"
+            id="org.sourceforge.eclpropfileedit.editor.PropertyFileEditor"
+            name="Property File GUI Editor">
+      </editor>
+   </extension>
+
+</plugin>
